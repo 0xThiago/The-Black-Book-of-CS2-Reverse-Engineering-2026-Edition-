@@ -1,6 +1,5 @@
 # 📖 Técnica 059: Social Engineering Based Cheats
 
-🔗 Link do vídeo: Não informado
 📅 Criado em: 2026-02-14
 🔗 Tags: #conhecimento #referência #cs2
 

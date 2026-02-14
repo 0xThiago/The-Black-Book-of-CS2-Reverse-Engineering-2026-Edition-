@@ -1,6 +1,5 @@
 # 📖 Técnica 041: Memory Dumping Prevention
 
-🔗 Link do vídeo: Não informado
 📅 Criado em: 2026-02-14
 🔗 Tags: #conhecimento #referência #cs2
 
