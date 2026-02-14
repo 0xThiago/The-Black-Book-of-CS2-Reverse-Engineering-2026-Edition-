@@ -1,5 +1,17 @@
-# Técnica 009: OpenProcess
+# 📖 Técnica 009: OpenProcess
 
+🔗 Link do vídeo: Não informado
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ❌ Defasado / Ineficaz
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 009: OpenProcess]]
+
+## 🔍 Desenvolvimento
 > **Status:** ❌ Defasado / Ineficaz  
 > **Risco de Detecção:** 🔴 Alto  
 > **Domínio:** Handles & Acesso  
@@ -409,3 +421,6 @@ bool HasSuspiciousAccess(ACCESS_MASK access) {
 ---
 
 *OpenProcess é completamente monitorado. Use técnicas kernel-level para acesso a processos em 2026.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

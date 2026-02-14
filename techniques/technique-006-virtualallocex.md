@@ -1,5 +1,17 @@
-# Técnica 005: VirtualAllocEx
+# 📖 Técnica 005: VirtualAllocEx
 
+🔗 Link do vídeo: Não informado
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ❌ Defasado / Ineficaz
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 005: VirtualAllocEx]]
+
+## 🔍 Desenvolvimento
 > **Status:** ❌ Defasado / Ineficaz  
 > **Risco de Detecção:** 🔴 Alto  
 > **Domínio:** Memória & Injeção  
@@ -320,3 +332,6 @@ void ScanProcessMemory(HANDLE hProcess) {
 ---
 
 *VirtualAllocEx é obsoleto desde 2020. Use técnicas kernel-level para alocação de memória.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

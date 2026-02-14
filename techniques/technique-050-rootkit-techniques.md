@@ -1,5 +1,17 @@
-# Técnica 050: Rootkit Techniques
+# 📖 Técnica 050: Rootkit Techniques
 
+🔗 Link do vídeo: Não informado
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ⚠️ Risco Alto
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 050: Rootkit Techniques]]
+
+## 🔍 Desenvolvimento
 > **Status:** ⚠️ Risco Alto  
 > **Risco de Detecção:** 🔴 Alto  
 > **Domínio:** Anti-Analysis  
@@ -1527,3 +1539,6 @@ public:
 ---
 
 *Rootkit techniques tem risco muito alto. Considere user-mode alternatives para mais segurança.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

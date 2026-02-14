@@ -1,5 +1,17 @@
-# Técnica 037: Kernel Mode Hooking
+# 📖 Técnica 037: Kernel Mode Hooking
 
+🔗 Link do vídeo: Não informado
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ❌ Defasado/Ineficaz
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 037: Kernel Mode Hooking]]
+
+## 🔍 Desenvolvimento
 > **Status:** ❌ Defasado/Ineficaz  
 > **Risco de Detecção:** 🔴 Muito Alto  
 > **Domínio:** System & Kernel  
@@ -936,3 +948,6 @@ public:
 ---
 
 *Kernel mode hooking é completamente obsoleto e extremamente perigoso. Use alternativas user-mode.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

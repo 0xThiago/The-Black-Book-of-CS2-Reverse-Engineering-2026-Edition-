@@ -1,5 +1,17 @@
-# Técnica 002: mouse_event API
+# 📖 Técnica 002: mouse_event API
 
+🔗 Link do vídeo: Não informado
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ❌ Defasado / Ineficaz
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 002: mouse_event API]]
+
+## 🔍 Desenvolvimento
 > **Status:** ❌ Defasado / Ineficaz  
 > **Risco de Detecção:** ⛔ Crítico  
 > **Domínio:** Entrada (Input)  
@@ -252,3 +264,6 @@ bool BE_ValidateHardwareInput() {
 ---
 
 *Esta técnica é documentada apenas para compreensão histórica. **NUNCA USE** em 2026.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

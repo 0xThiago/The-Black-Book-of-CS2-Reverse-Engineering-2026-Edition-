@@ -1,5 +1,17 @@
-# Técnica 012: Memory Patching
+# 📖 Técnica 012: Memory Patching
 
+🔗 Link do vídeo: Não informado
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ❌ Defasado / Ineficaz
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 012: Memory Patching]]
+
+## 🔍 Desenvolvimento
 > **Status:** ❌ Defasado / Ineficaz  
 > **Risco de Detecção:** 🔴 Crítico  
 > **Domínio:** Memória & Patching  
@@ -424,3 +436,6 @@ bool IsCodeModified(const MEMORY_REGION& region) {
 ---
 
 *Memory patching é completamente obsoleto. Use hooking techniques para modificações em 2026.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

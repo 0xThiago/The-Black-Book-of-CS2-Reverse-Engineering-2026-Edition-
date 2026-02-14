@@ -1,5 +1,17 @@
-# Técnica 032: Input Manipulation
+# 📖 Técnica 032: Input Manipulation
 
+🔗 Link do vídeo: Não informado
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ⚠️ Risco Moderado
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 032: Input Manipulation]]
+
+## 🔍 Desenvolvimento
 > **Status:** ⚠️ Risco Moderado  
 > **Risko de Detecção:** 🟡 Médio  
 > **Domínio:** Input & Control  
@@ -797,3 +809,6 @@ void AnalyzeInputPatterns() {
 ---
 
 *Input manipulation tem risco moderado. Considere DirectX input interception para mais stealth.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

@@ -1,5 +1,17 @@
-# Técnica 004: WriteProcessMemory (WPM)
+# 📖 Técnica 004: WriteProcessMemory (WPM)
 
+🔗 Link do vídeo: Não informado
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ❌ Defasado / Ineficaz
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 004: WriteProcessMemory (WPM)]]
+
+## 🔍 Desenvolvimento
 > **Status:** ❌ Defasado / Ineficaz  
 > **Risco de Detecção:** 🔴 Crítico  
 > **Domínio:** Memória & Evasão  
@@ -298,3 +310,6 @@ void ProcessMemoryWriteEvent(PEVENT_TRACE pEvent) {
 ---
 
 *WPM é completamente obsoleto. Todas as técnicas modernas usam kernel-level ou hardware access.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

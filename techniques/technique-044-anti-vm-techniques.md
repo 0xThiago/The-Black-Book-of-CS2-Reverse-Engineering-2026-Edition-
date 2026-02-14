@@ -1,5 +1,17 @@
-# Técnica 044: Anti-VM Techniques
+# 📖 Técnica 044: Anti-VM Techniques
 
+🔗 Link do vídeo: Não informado
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ⚠️ Risco Moderado
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 044: Anti-VM Techniques]]
+
+## 🔍 Desenvolvimento
 > **Status:** ⚠️ Risco Moderado  
 > **Risco de Detecção:** 🟡 Médio  
 > **Domínio:** Anti-Analysis  
@@ -199,13 +211,13 @@ public:
         
         // Prefixos conhecidos de VM
         const std::vector<std::string> vmPrefixes = {
-            "08:00:27", // VirtualBox
-            "00:05:69", // VMware
+            "", // VirtualBox
+            "", // VMware
             "00:0C:29", // VMware
             "00:1C:14", // VMware
-            "00:50:56", // VMware
-            "52:54:00", // QEMU
-            "02:42:AC"  // Docker
+            "", // VMware
+            "", // QEMU
+            ":AC"  // Docker
         };
         
         for (const std::string& mac : macs) {
@@ -1571,3 +1583,6 @@ public:
 ---
 
 *Anti-VM techniques tem risco moderado. Considere environmental adaptation para mais stealth.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.
