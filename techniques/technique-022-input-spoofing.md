@@ -1,5 +1,16 @@
-# Técnica 022: Input Spoofing
+# 📖 Técnica 022: Input Spoofing
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ❌ Defasado / Ineficaz
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 022: Input Spoofing]]
+
+## 🔍 Desenvolvimento
 > **Status:** ❌ Defasado / Ineficaz  
 > **Risco de Detecção:** 🔴 Alto  
 > **Domínio:** Input & Control  
@@ -859,3 +870,6 @@ void CompareInputs() {
 ---
 
 *Input spoofing é completamente obsoleto. Use simulação humana ou input específico do jogo.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

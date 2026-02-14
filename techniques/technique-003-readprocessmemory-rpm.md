@@ -1,5 +1,16 @@
-# Técnica 003: ReadProcessMemory (RPM)
+# 📖 Técnica 003: ReadProcessMemory (RPM)
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ❌ Defasado / Ineficaz
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 003: ReadProcessMemory (RPM)]]
+
+## 🔍 Desenvolvimento
 > **Status:** ❌ Defasado / Ineficaz  
 > **Risco de Detecção:** 🔴 Alto  
 > **Domínio:** Memória & Evasão  
@@ -303,3 +314,6 @@ bool IsCheatMemoryPattern(const SYSTEM_HANDLE& handle) {
 ---
 
 *RPM é obsoleto desde 2020. Use técnicas kernel-level para acesso à memória em 2026.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

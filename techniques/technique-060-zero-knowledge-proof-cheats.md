@@ -1,5 +1,16 @@
-# Técnica 060: Zero-Knowledge Proof Cheats
+# 📖 Técnica 060: Zero-Knowledge Proof Cheats
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ⚠️ Risco Alto
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 060: Zero-Knowledge Proof Cheats]]
+
+## 🔍 Desenvolvimento
 > **Status:** ⚠️ Risco Alto  
 > **Risco de Detecção:** 🔴 Alto  
 > **Domínio:** Cryptography  
@@ -1135,3 +1146,6 @@ public:
 ---
 
 *Zero-knowledge proof cheats tem risco muito alto devido à análise computacional e detecção de protocolos. Considere criptografia tradicional para mais segurança.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

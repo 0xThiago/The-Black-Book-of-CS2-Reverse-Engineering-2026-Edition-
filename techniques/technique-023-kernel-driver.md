@@ -1,5 +1,16 @@
-# Técnica 023: Kernel Driver
+# 📖 Técnica 023: Kernel Driver
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ❌ Defasado / Ineficaz
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 023: Kernel Driver]]
+
+## 🔍 Desenvolvimento
 > **Status:** ❌ Defasado / Ineficaz  
 > **Risco de Detecção:** 🔴 Alto  
 > **Domínio:** Kernel & System  
@@ -896,3 +907,6 @@ void CheckUnsignedDrivers() {
 ---
 
 *Kernel drivers são completamente obsoletos. Use técnicas user-mode ou manual mapping.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

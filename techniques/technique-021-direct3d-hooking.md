@@ -1,5 +1,16 @@
-# Técnica 021: Direct3D Hooking
+# 📖 Técnica 021: Direct3D Hooking
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ❌ Defasado / Ineficaz
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 021: Direct3D Hooking]]
+
+## 🔍 Desenvolvimento
 > **Status:** ❌ Defasado / Ineficaz  
 > **Risco de Detecção:** 🔴 Alto  
 > **Domínio:** Graphics & Rendering  
@@ -667,3 +678,6 @@ void CheckOverlayWindows() {
 ---
 
 *D3D hooking é completamente obsoleto. Use overlays externos ou ImGui.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

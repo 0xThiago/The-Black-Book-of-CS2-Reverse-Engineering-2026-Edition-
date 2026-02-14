@@ -1,5 +1,16 @@
-# Técnica 011: Kernel Driver
+# 📖 Técnica 011: Kernel Driver
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ✅ Funcional
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 011: Kernel Driver]]
+
+## 🔍 Desenvolvimento
 > **Status:** ✅ Funcional  
 > **Risco de Detecção:** 🟢 Baixo  
 > **Domínio:** Kernel & Rootkit  
@@ -502,3 +513,6 @@ bool HasDKOM_Anomaly(PEPROCESS process) {
 ---
 
 *Kernel drivers são a técnica mais poderosa em 2026. Foque em signed drivers e hypervisor integration.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

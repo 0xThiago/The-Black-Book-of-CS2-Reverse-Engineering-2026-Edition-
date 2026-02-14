@@ -1,5 +1,16 @@
-# Técnica 001: Windows SendInput
+# 📖 Técnica 001: Windows SendInput
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ❌ Defasado / Ineficaz
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 001: Windows SendInput]]
+
+## 🔍 Desenvolvimento
 > **Status:** ❌ Defasado / Ineficaz  
 > **Risco de Detecção:** ⛔ Crítico  
 > **Domínio:** Entrada (Input)  
@@ -223,3 +234,6 @@ void BE_ValidateInput(PINPUT input) {
 ---
 
 *Esta técnica é mantida apenas para fins educacionais. **NÃO USE** em produção.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

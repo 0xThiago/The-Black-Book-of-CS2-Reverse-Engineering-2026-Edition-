@@ -1,5 +1,16 @@
-# Técnica 015: Reflective DLL Injection
+# 📖 Técnica 015: Reflective DLL Injection
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ✅ Funcional
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 015: Reflective DLL Injection]]
+
+## 🔍 Desenvolvimento
 > **Status:** ✅ Funcional  
 > **Risco de Detecção:** 🟢 Baixo  
 > **Domínio:** Memória & Injeção  
@@ -540,3 +551,6 @@ void CheckSelfMapping() {
 ---
 
 *Reflective injection é uma das técnicas mais avançadas em 2026. Use com criptografia e polimorfismo.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

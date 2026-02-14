@@ -1,5 +1,16 @@
-# Técnica 007: LoadLibrary Injection
+# 📖 Técnica 007: LoadLibrary Injection
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ❌ Defasado / Ineficaz
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 007: LoadLibrary Injection]]
+
+## 🔍 Desenvolvimento
 > **Status:** ❌ Defasado / Ineficaz  
 > **Risco de Detecção:** 🔴 Crítico  
 > **Domínio:** DLL & Injeção  
@@ -422,3 +433,6 @@ bool IsSuspiciousContext() {
 ---
 
 *LoadLibrary injection é completamente obsoleto. Use manual mapping ou reflective injection em 2026.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

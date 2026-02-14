@@ -1,5 +1,16 @@
-# Técnica 058: Augmented Reality Cheat Interfaces
+# 📖 Técnica 058: Augmented Reality Cheat Interfaces
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ⚠️ Risco Médio
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 058: Augmented Reality Cheat Interfaces]]
+
+## 🔍 Desenvolvimento
 > **Status:** ⚠️ Risco Médio  
 > **Risco de Detecção:** 🟡 Médio  
 > **Domínio:** Augmented Reality  
@@ -1122,3 +1133,6 @@ public:
 ---
 
 *AR cheat interfaces tem risco muito alto devido à detecção de engines AR. Considere overlays 2D tradicionais para mais segurança.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

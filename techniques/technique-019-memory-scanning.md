@@ -1,5 +1,16 @@
-# Técnica 018: Memory Scanning
+# 📖 Técnica 018: Memory Scanning
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ❌ Defasado / Ineficaz
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 018: Memory Scanning]]
+
+## 🔍 Desenvolvimento
 > **Status:** ❌ Defasado / Ineficaz  
 > **Risco de Detecção:** 🔴 Alto  
 > **Domínio:** Scanning & Detection  
@@ -621,3 +632,6 @@ void AnalyzeAccessPatterns() {
 ---
 
 *Memory scanning é completamente obsoleto. Use análise estática e signatures para encontrar offsets.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

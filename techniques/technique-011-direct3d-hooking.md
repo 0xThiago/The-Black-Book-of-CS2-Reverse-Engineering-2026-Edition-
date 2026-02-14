@@ -1,5 +1,16 @@
-# Técnica 010: Direct3D Hooking
+# 📖 Técnica 010: Direct3D Hooking
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ⚠️ Risco Moderado
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 010: Direct3D Hooking]]
+
+## 🔍 Desenvolvimento
 > **Status:** ⚠️ Risco Moderado  
 > **Risco de Detecção:** 🟡 Médio  
 > **Domínio:** Graphics & Rendering  
@@ -431,3 +442,6 @@ bool ContainsCheatCode(const SHADER_BYTECODE& shader) {
 ---
 
 *D3D hooking ainda funciona mas é arriscado. Considere Vulkan layers para graphics cheats em 2026.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

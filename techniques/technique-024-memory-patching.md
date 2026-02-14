@@ -1,5 +1,16 @@
-# Técnica 024: Memory Patching
+# 📖 Técnica 024: Memory Patching
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ❌ Defasado / Ineficaz
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 024: Memory Patching]]
+
+## 🔍 Desenvolvimento
 > **Status:** ❌ Defasado / Ineficaz  
 > **Risco de Detecção:** 🔴 Alto  
 > **Domínio:** Memory & Code  
@@ -775,3 +786,6 @@ void CheckFunctionSignatures() {
 ---
 
 *Memory patching é completamente obsoleto. Use hooks ou proxy DLLs.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

@@ -1,5 +1,16 @@
-# Técnica 014: Manual DLL Mapping
+# 📖 Técnica 014: Manual DLL Mapping
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ✅ Funcional
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 014: Manual DLL Mapping]]
+
+## 🔍 Desenvolvimento
 > **Status:** ✅ Funcional  
 > **Risco de Detecção:** 🟢 Baixo  
 > **Domínio:** Memória & Injeção  
@@ -576,3 +587,6 @@ void VerifyIAT() {
 ---
 
 *Manual mapping é altamente efetivo em 2026. Use com kernel assistance para máxima stealth.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

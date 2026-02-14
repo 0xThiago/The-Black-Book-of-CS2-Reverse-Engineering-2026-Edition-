@@ -1,5 +1,16 @@
-# Técnica 051: Advanced Injection Techniques
+# 📖 Técnica 051: Advanced Injection Techniques
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ⚠️ Risco Alto
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 051: Advanced Injection Techniques]]
+
+## 🔍 Desenvolvimento
 > **Status:** ⚠️ Risco Alto  
 > **Risco de Detecção:** 🔴 Alto  
 > **Domínio:** Process Injection  
@@ -1386,3 +1397,6 @@ public:
 ---
 
 *Advanced injection techniques tem risco muito alto. Considere hook-based injection para mais stealth.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

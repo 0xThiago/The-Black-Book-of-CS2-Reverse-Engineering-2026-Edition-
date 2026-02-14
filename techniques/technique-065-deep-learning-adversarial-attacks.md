@@ -1,5 +1,16 @@
-# Técnica 065: Deep Learning Adversarial Attacks
+# 📖 Técnica 065: Deep Learning Adversarial Attacks
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ⚠️ Risco Médio
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 065: Deep Learning Adversarial Attacks]]
+
+## 🔍 Desenvolvimento
 > **Status:** ⚠️ Risco Médio  
 > **Risco de Detecção:** 🟡 Médio  
 > **Domínio:** Adversarial Machine Learning  
@@ -1233,3 +1244,6 @@ public:
 ---
 
 *Deep learning adversarial attacks tem risco muito alto devido à detecção de perturbações e defesas robustas. Considere manipulação direta de modelo para mais segurança.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.

@@ -1,5 +1,16 @@
-# Técnica 027: Manual DLL Mapping
+# 📖 Técnica 027: Manual DLL Mapping
 
+📅 Criado em: 2026-02-14
+🔗 Tags: #conhecimento #referência #cs2
+
+## 📌 Resumo
+> > **Status:** ⚠️ Risco Moderado
+
+## 🔗 Relação com outros conceitos
+- [[CS2 Reverse Engineering]]
+- [[Técnica 027: Manual DLL Mapping]]
+
+## 🔍 Desenvolvimento
 > **Status:** ⚠️ Risco Moderado  
 > **Risco de Detecção:** 🟡 Médio  
 > **Domínio:** Injection & Loading  
@@ -912,3 +923,6 @@ void MonitorImportResolutions() {
 ---
 
 *Manual DLL mapping tem risco moderado. Considere process hollowing para mais stealth.*
+
+---
+📌 **Quando usar esta nota?** Sempre que precisar revisar rapidamente este conceito e conectá-lo com outras notas do seu vault.
