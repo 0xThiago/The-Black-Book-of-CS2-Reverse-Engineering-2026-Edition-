@@ -27,10 +27,10 @@
 
 | Métrica | Valor |
 |---------|-------|
-| **Total de Técnicas Únicas** | 127 |
-| **Técnicas Defasadas** | 18 |
-| **Técnicas Atuais** | 89 |
-| **Técnicas Emergentes 2026** | 20 |
+| **Total de Técnicas Únicas** | 55 |
+| **Técnicas Defasadas** | 12 |
+| **Técnicas Atuais** | 38 |
+| **Técnicas Emergentes 2026** | 5 |
 | **Domínios Cobertos** | 12 |
 | **Precisão Técnica** | 100% |
 
