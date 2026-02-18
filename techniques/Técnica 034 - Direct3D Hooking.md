@@ -1,7 +1,11 @@
 # Técnica 034 - Direct3D Hooking
 
+> [!WARNING]
+> **⚠️ NOTA DUPLICADA** — Esta nota é uma duplicata de [[Técnica 011 - Direct3D Hooking]].
+> Consulte a nota canônica para conteúdo atualizado. Esta versão cobre D3D11 (detalhado).
+
 📅 Criado em: 2026-02-14
-🔗 Tags: #conhecimento #referência #cs2
+🔗 Tags: #conhecimento #referência #cs2 #duplicata
 
 ## 📌 Resumo
 > > **Status:** ⚠️ Risco Moderado

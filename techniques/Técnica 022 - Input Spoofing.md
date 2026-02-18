@@ -1,7 +1,11 @@
 # Técnica 022 - Input Spoofing
 
+> [!WARNING]
+> **⚠️ NOTA DUPLICADA** — Esta nota é uma duplicata de [[Técnica 018 - Input Spoofing]].
+> Consulte a nota canônica para conteúdo atualizado.
+
 📅 Criado em: 2026-02-14
-🔗 Tags: #conhecimento #referência #cs2
+🔗 Tags: #conhecimento #referência #cs2 #duplicata
 
 ## 📌 Resumo
 > > **Status:** ❌ Defasado / Ineficaz

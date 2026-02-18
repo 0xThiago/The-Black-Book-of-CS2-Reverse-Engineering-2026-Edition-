@@ -280,27 +280,53 @@ impl ExecutionContext {
     }
     
     unsafe fn enum_processes() -> Vec<String> {
-        use windows::Win32::System::ProcessStatus::*;
+        use windows::Win32::System::Diagnostics::ToolHelp::*;
+        use windows::Win32::Foundation::CloseHandle;
         
         let mut processes = Vec::new();
-        let mut pids = vec![0u32; 1024];
-        let mut bytes_returned = 0u32;
         
-        EnumProcesses(
-            pids.as_mut_ptr(),
-            (pids.len() * std::mem::size_of::<u32>()) as u32,
-            &mut bytes_returned,
-        );
-        
-        // Lista de processos suspeitos
+        // Lista de processos suspeitos (debuggers, ferramentas de RE, sniffers)
         let suspicious = [
             "x64dbg.exe", "x32dbg.exe", "ollydbg.exe", 
             "ida.exe", "ida64.exe", "windbg.exe",
-            "processhacker.exe", "procexp.exe", "wireshark.exe"
+            "processhacker.exe", "procexp.exe", "procexp64.exe",
+            "wireshark.exe", "fiddler.exe", "httpdebuggerpro.exe",
+            "cheatengine-x86_64.exe", "dnspy.exe", "ghidra.exe",
+            "pestudio.exe", "die.exe", "hiew32.exe",
+            "scylla_x64.exe", "importrec.exe",
         ];
         
-        // Verificar (implementação simplificada)
-        // Na prática, precisaria abrir cada processo e ler o nome
+        let snapshot = match CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0) {
+            Ok(s) => s,
+            Err(_) => return processes,
+        };
+        
+        let mut entry = PROCESSENTRY32W {
+            dwSize: std::mem::size_of::<PROCESSENTRY32W>() as u32,
+            ..Default::default()
+        };
+        
+        if Process32FirstW(snapshot, &mut entry).is_ok() {
+            loop {
+                let name = String::from_utf16_lossy(
+                    &entry.szExeFile[..entry.szExeFile.iter()
+                        .position(|&c| c == 0).unwrap_or(entry.szExeFile.len())]
+                ).to_lowercase();
+                
+                for &sus in &suspicious {
+                    if name.contains(sus) {
+                        processes.push(name.clone());
+                        break;
+                    }
+                }
+                
+                if Process32NextW(snapshot, &mut entry).is_err() {
+                    break;
+                }
+            }
+        }
+        
+        let _ = CloseHandle(snapshot);
         processes
     }
     
@@ -363,8 +389,29 @@ impl ExecutionContext {
     }
     
     unsafe fn get_geolocation() -> Option<String> {
-        // Via IP geolocation API (simplificado)
-        None
+        // Geolocalização via timezone (não requer rede)
+        use windows::Win32::System::Time::*;
+        
+        let mut tz_info: TIME_ZONE_INFORMATION = std::mem::zeroed();
+        let tz_id = GetTimeZoneInformation(&mut tz_info);
+        
+        // Mapear bias (UTC offset em minutos) para região
+        let bias = tz_info.Bias;
+        let region = match bias {
+            300 => "US-EST",   // UTC-5
+            360 => "US-CST",   // UTC-6
+            420 => "US-MST",   // UTC-7
+            480 => "US-PST",   // UTC-8
+            0 => "EU-GMT",     // UTC+0
+            -60 => "EU-CET",   // UTC+1
+            -120 => "EU-EET",  // UTC+2
+            -180 => "BR-BRT",  // UTC-3 (Brasil)
+            -540 => "JP-JST",  // UTC+9
+            -480 => "CN-CST",  // UTC+8
+            _ => "UNKNOWN",
+        };
+        
+        Some(region.to_string())
     }
 }
 

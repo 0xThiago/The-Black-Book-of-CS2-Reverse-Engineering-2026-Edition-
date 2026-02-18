@@ -27,10 +27,11 @@
 
 | Métrica | Valor |
 |---------|-------|
-| **Total de Técnicas Únicas** | 55 |
+| **Total de Técnicas Documentadas** | 51 |
 | **Técnicas Defasadas** | 12 |
-| **Técnicas Atuais** | 38 |
-| **Técnicas Emergentes 2026** | 5 |
+| **Técnicas Atuais (Validadas)** | 35 |
+| **Técnicas Emergentes 2026** | 4 |
+| **Conceitos Aprofundados** | 33 |
 | **Domínios Cobertos** | 12 |
 | **Precisão Técnica** | 100% |
 
@@ -1676,12 +1677,19 @@ public:
 - **DMA:** github.com/ufrisk/pcileech
 
 ### Ferramentas Recomendadas
-- **IDA Pro 8.4** - Reverse engineering
+- **IDA Pro 9.0** - Reverse engineering
 - **x64dbg** - Debugging usermode
 - **WinDbg Preview** - Kernel debugging
-- **Cheat Engine 7.5** - Memory editing
+- **Cheat Engine 7.6** - Memory editing
 - **ReClass.NET** - Structure reversing
-- **Process Hacker** - Process analysis
+- **Process Hacker 3** - Process analysis
+- **Ghidra 11.x** - RE open-source (NSA)
+
+### Ferramentas Rust
+- **cargo-asm** - Visualizar assembly gerado pelo compilador
+- **cargo-expand** - Expandir macros procedurais
+- **miri** - Detectar UB em código unsafe
+- **cargo-bloat** - Analisar tamanho de binários
 
 ---
 
@@ -1689,11 +1697,8 @@ public:
 
 | Versão | Data | Mudanças |
 |--------|------|----------|
-| 2.0 | 12/02/2026 | Reestruturação completa, eliminação de redundância |
-| 2.0 | 12/02/2026 | Adição de técnicas AI/ML |
-| 2.0 | 12/02/2026 | Atualização de offsets para build 14025632 |
-| 2.0 | 12/02/2026 | Adição de matriz de compatibilidade |
-| 2.0 | 12/02/2026 | Atualização de API gráfica para Vulkan |
+| 2.1 | 18/02/2026 | Criação de 7 notas de conceito faltantes, correção de links quebrados, preenchimento de placeholders em ML features, atualização de ferramentas |
+| 2.0 | 12/02/2026 | Reestruturação completa: eliminação de redundância, adição de técnicas AI/ML, atualização de offsets (build 14025632), matriz de compatibilidade AC, migração de rendering para Vulkan |
 
 ---
 

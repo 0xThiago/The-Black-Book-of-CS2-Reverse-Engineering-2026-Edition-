@@ -40,8 +40,8 @@ Esta versão foi purgada de padding artificial e técnicas alucinadas. Foca inte
 
 ### [NOVO] 55. High-Performance Rust ONNX (ort)
 - **Domínio:** IA / ML / Rust
-- **Descrição:** Motor de inferência YOLO v11 rodando sobre a crate `ort` com aceleração CUDA/TensorRT.
-- **Vantagem:** Latência de inferência < 1ms, crucial para CS2 sub-tick.
+- **Descrição:** Motor de inferência YOLOv11 rodando sobre a crate `ort` (v2.x, 2026) com aceleração CUDA/TensorRT.
+- **Vantagem:** Latência de inferência <1ms, crucial para CS2 sub-tick. Integração com [[Behavioral_Mimicry]] para output humanizado.
 
 ---
 <p align="center">REDFLAG © 2026 - Versão Curada pelo Rust Sentinel</p>
